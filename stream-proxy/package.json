@@ -1,0 +1,22 @@
+{
+  "name": "stream-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket proxy: fans browser audio windows to Interhuman + Whisper",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^6.38.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+agent/.env
+
+# Env files (keep .env.example)
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Build output
+stream-proxy/dist/
+
+# Misc
+.DS_Store
+*.log
+
+# LiveKit prod secrets (do not commit)
+agent/.env.prod.secrets
+.vercel
